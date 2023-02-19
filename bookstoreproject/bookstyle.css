@@ -1,0 +1,951 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+.main{
+ 	width: 100%;
+ 	height:100vh;
+ 	 background-image: url(white.jpg);
+ 	 background-position:center;
+ 	 background-size: cover;
+ }
+ .infobar{
+ 	background-color:#CDCDCD;
+ 	width: 100%;
+ 	height: 35px;
+ 	padding: 3px 2px;
+
+
+ }
+
+ #n1{
+ 	padding:10px;
+ 	text-decoration: none;
+ }
+ #n2{
+ 	text-decoration: none;
+ }
+
+ #n3{
+ 	float:right;
+ 	padding: 10px;
+ text-decoration: none;
+ }
+  
+  
+  .infobar a , #n1,#n2,#n3{
+  	color: #696969 ;
+  }
+
+ .logo{
+ 	background-image: url(logo.png);
+ 	width: 130px;
+ 	height: 130px;
+ 	background-size: cover;
+ }
+
+h1{
+	text-align:center;
+	margin-top: -110px;
+	color: red;
+	font-size: 80px;
+	margin-right:50px;
+}
+
+.search{
+	width: 200px;
+	margin-left:79%;
+	border-color: red; 
+margin-top: -5%;
+height: 38px;
+}
+ 
+ .active{
+  list-style-type: none;
+ 	margin-top: 10px;
+ 	padding: 0;
+ 	overflow: hidden ;
+ 	background-color: red;
+ }
+
+ .active li{
+ 	float:left;
+ }
+
+  .active li a{
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+
+  }
+   .active li a:hover{
+  	background-color:maroon;
+
+  }
+.slider{
+	width:100%;
+	height: 400px;
+	position: absolute;
+	background-image: url(post1.jpg);
+
+	background-size:cover;
+	animation:slide 20s infinite linear;
+
+}
+@keyframes slide{
+	0%{
+		 background-image: url(post1.jpg);
+	}
+ 30%{
+ 	 background-image: url(post3.jpg);
+ }
+ 60%{ 
+
+    background-image: url(post5.jpg);
+    }
+ 80%{
+    
+    background-image: url(post2.jpg);
+ }
+ 100%{ 
+    	background-image: url(post5.jpg);
+  }
+ 
+}
+.line1{
+   text-align:center;
+   color: red;
+   margin-top:420px;
+   margin-right:40px;
+}
+.rel1{
+   height:420px ;
+   width: 100%;
+   margin-top: -50px;
+}
+.new1{
+   background-image: url(book1.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 200px ;
+   height:400px ;
+   float: left;
+   margin-left:150px;
+}
+.new1 p{
+   margin-top:330px;
+}
+.new1 button{
+   color:white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color:red;
+   margin-top: 190px;
+}
+
+.new1:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+   position: absolute;
+border: none;
+}
+.new2{
+   background-image: url(book2.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 200px ;
+   height:400px ;
+   float: left;
+   margin-left:150px;
+}
+.new2 p{
+   margin-top:330px;
+}
+.new2 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.new2:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+   position: absolute;
+border: none;
+}
+.new3{
+   background-image: url(book3.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 200px ;
+   height:400px ;
+   float: left;
+   margin-left:150px;
+}
+.new3 p{
+   margin-top: 330px;
+}
+.new3 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color:red;
+   margin-top: 190px;
+}
+
+.new3:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+}
+.new4{
+   background-image: url(book4.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 200px ;
+   height:400px ;
+   float: left;
+   margin-left:150px;
+}
+.new4 p{
+   margin-top: 330px;
+}
+
+.new4 button{
+    color:white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.new4:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+  position: absolute;
+border: none;   
+}
+.new5{
+   background-image: url(book5.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+.new5 p{
+   margin-top:330px;
+}
+
+.new5 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.new5:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+}
+.new6{
+   background-image: url(book6.jpg);
+   background-size:200px 300px;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+ 
+ .new6 p{
+   margin-top: 330px;
+ }
+
+.new6 button{
+    color:white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.new6:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+}
+.new7{
+   background-image: url(book7.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+
+}
+.new7 p{
+   margin-top: 330px;
+}
+.new7 button{
+    color:white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.new7:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+}
+.new8{
+   background-image: url(book8.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.new8 p{
+   margin-top: 360px;
+}
+
+.new8 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.new8:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+}
+.line2{
+    text-align: center;
+    color: red;
+    margin-top: 500px ;
+    
+
+}
+ 
+ .bestsell{
+    height:420px ;
+   width: 100%;
+   margin-top: -0.8%;
+ }
+
+.best1{
+   background-image: url(bookbs1.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best1 p{
+   margin-top: 330px;
+}
+
+.best1 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best1:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best2{
+   background-image: url(bookbs2.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best2 p{
+   margin-top: 330px;
+}
+
+.best2 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best2:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best3{
+   background-image: url(bookbs3.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best3 p{
+   margin-top: 330px;
+}
+
+.best3 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best3:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best4{
+   background-image: url(bookbs4.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best4 p{
+   margin-top: 330px;
+}
+
+.best4 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best4:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.bestsell2{
+  margin-top: 30px;
+}
+
+.best5{
+   background-image: url(bookbs5.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best5 p{
+   margin-top: 330px;
+}
+
+.best5 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best5:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best6{
+   background-image: url(bookbs6.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best6 p{
+   margin-top: 330px;
+}
+
+.best6 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best6:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best7{
+   background-image: url(bookbs7.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best7 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best7:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best7 p{
+   margin-top: 330px;
+}
+
+.best7 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best7:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best8{
+   background-image: url(bookbs8.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best8 p{
+   margin-top: 330px;
+}
+
+.best8 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best8:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+  position: absolute;
+border: none;
+}
+.best9{
+   background-image: url(bookbs9.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best9 p{
+   margin-top: 330px;
+}
+
+.best9 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best9:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best10{
+   background-image: url(bookbs10.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best10 p{
+   margin-top: 330px;
+}
+
+.best10 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best10:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best11{
+   background-image: url(bookbs11.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best11 p{
+   margin-top: 330px;
+}
+
+.best11 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best11:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.best12{
+   background-image: url(bookbs12.jpg);
+   background-size: 200px 300px;
+   background-repeat: no-repeat;
+   width: 220px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+
+.best12 p{
+   margin-top: 330px;
+}
+
+.best12 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.best12:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+     position: absolute;
+border: none;
+
+}
+.line3{
+   text-align: center;
+    color: red;
+    margin-top: 920px ;
+    
+}
+
+.recommend{
+    height:420px ;
+   width: 100%;
+   margin-top: -10px;
+}
+
+.rec1{
+   background-image: url(our1.jpg);
+   background-size: 200px 300px ;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+.rec1 p{
+   margin-top: 330px;
+}
+
+.rec1 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.rec1:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+position: absolute;
+border: none;
+
+}
+.rec2{
+   background-image: url(our2.jpg);
+   background-size: 200px 300px ;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+.rec2 p{
+   margin-top: 330px;
+}
+
+.rec2 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.rec2:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+position: absolute;
+border: 0px;
+}
+.rec3{
+   background-image: url(our3.jpg);
+   background-size: 200px 300px ;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+.rec3 p{
+   margin-top: 330px;
+}
+
+.rec3 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.rec3:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+position: absolute;
+border: 0px;
+}
+.rec4{
+   background-image: url(our4.jpg);
+   background-size: 200px 300px ;
+   background-repeat: no-repeat;
+   width: 200px;
+   height: 400px;
+   float: left;
+   margin-left: 150px;
+   margin-top: 30px;
+}
+.rec4 p{
+   margin-top: 330px;
+}
+
+.rec4 button{
+    color: white;
+   display: none;
+   width:200px;
+   height:50px;
+   background-color: red;
+   margin-top: 190px;
+}
+
+.rec4:hover button{
+   display: block;
+   height: 50px;
+   width:200px ;
+   position: absolute;
+   border: 0px;
+
+}
+.footer{
+   width:100% ;
+   position: relative;
+   height: 200px;
+   color: black;
+    margin-top: 160px;
+}
+ 
+ .footer ul{
+   background-color: white;
+
+   
+
+ }
+ .footer ul li a{
+ text-decoration: none;
+ color: black;
+}
+
+
+ .footer ul li:hover a{
+    color: red;
+ }
+
+ 
+ .endbar{
+   width: 100%;
+   height: 35px;
+   background-color: #cdcdcd ;
+   padding: 3px 2px;
+   margin-top: -15px;
+
+ }
+
